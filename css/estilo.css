@@ -1,0 +1,171 @@
+
+html,body{
+
+	height: 100%;
+	
+}
+.container{
+
+	width: 100%;
+	max-width: 1350px;
+	min-height:100%;
+	background-image: linear-gradient(90deg, #0076a3,  #000);
+	margin: 0;
+	position: relative;
+
+}
+.push{
+	height: 1rem;
+}
+.invisivel{
+	visibility: hidden;
+}
+.fonte{
+	font-family: arial;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: bold;
+}
+.fonteBlack{
+	font-family: arial;
+	color: #000;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.fonteVerde{
+	font-family: arial;
+	color:#00FF00;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.fonteVermelha{
+	font-family: arial;
+	color: #FF0000;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+
+
+
+#titulo{
+	position: relative;
+	margin-top: 2%;
+	margin-left: 15%;
+	font-size: 2rem;
+
+}
+
+.box-form{
+
+	width: 35%;
+	margin-top: 10%;
+	margin-left:10%;
+	position: relative;
+	font-family: arial;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.formulario input[type=number]{
+	width: 30%;
+	background: transparent;
+	border:transparent;
+	border-bottom: 1px solid #2dbfbf;
+	outline: none;
+	color:#fff;
+	font-size: 1.3rem;
+	padding:0.25em;
+}
+
+.label{
+
+	margin-left: -20%;
+	margin-top: -10%;
+
+}
+
+.label li{
+	margin-bottom: 2%;
+}
+.botao{
+	  width: 15%;
+	  height: 2rem; 
+	  margin-top: 2%;
+	  margin-left: 10%; 
+	  position: relative;
+	  color: #fff;
+	  background-image: linear-gradient(45deg, #077305, #15ed10);
+	  font-size: 1rem;
+	  font-weight: bold;
+	  text-align:center;
+	  border-radius: 1px;
+	  border: #000 2px solid;
+	  cursor: pointer;
+	  overflow: hidden;
+	  -webkit-transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
+	  transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
+	  z-index: 999;
+}
+#botao-novo{
+
+position: relative;
+margin-top: -5%;
+}
+
+.resultados{
+	width: 40%;
+	height: 20rem;
+	margin-left: 50%;
+	margin-top: -10%;
+	background:#fff;
+	border-radius: 10%;
+	border:3px solid #000;
+}
+
+#labelExcluir{
+	margin: 2rem; 
+
+}
+
+#labelSorte{
+	margin-left:2rem;
+	margin-top: 2rem;
+
+}
+
+#excluidos{
+	margin-top: -4rem;
+	margin-left: 23%;
+	margin-bottom: 1rem;
+	position: relative;
+}
+
+#sorteados{
+	width: 70%;
+	height: 1rem;
+	margin-top: 2rem;
+	margin-left: 23%;
+	margin-bottom: 2rem;
+	position: relative;
+
+}
+
+#novoSorteado{
+
+	width: 20%;
+	height: 20%;
+	border-radius:50%;
+	background: #0076a3;
+	border: 2px solid #000;
+	margin-top: 20%;
+	margin-left: 50%;
+	margin-bottom: 2rem;
+	padding-top: 5%; 
+	font-size: 2rem;
+	text-align: center;
+	position: relative;
+}
